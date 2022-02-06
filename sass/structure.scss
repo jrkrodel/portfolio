@@ -85,25 +85,29 @@ a {
 }
 
 @media only screen and (max-width: 90em) {
-  html {
+  html,
+  body {
     font-size: 40.5%;
   }
 }
 
 @media only screen and (max-width: 65em) {
-  html {
+  html,
+  body {
     font-size: 35.5%;
   }
 }
 
 @media only screen and (max-width: 52em) {
-  html {
+  html,
+  body {
     font-size: 25.5%;
   }
 }
 
 @media only screen and (max-width: 32em) {
-  html {
+  html,
+  body {
     font-size: 20.5%;
   }
 }
