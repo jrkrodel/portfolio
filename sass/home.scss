@@ -1,0 +1,51 @@
+#home {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background-color: #fafafa;
+  h1 {
+    font-size: 6rem;
+    font-family: pop-reg;
+    animation-name: fadeIn;
+    animation-duration: 3s;
+  }
+  h2 {
+    font-size: 6rem;
+    font-weight: lighter;
+    margin-bottom: 15rem;
+    font-family: pop-light;
+  }
+
+  .wave1,
+  .wave2,
+  .wave3 {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .circle-blue {
+    width: 20rem;
+    height: 20rem;
+    background: #0b1c32;
+    opacity: 0.8;
+    border-radius: 10rem;
+    position: absolute;
+    top: 10rem;
+    right: 10rem;
+    z-index: 99;
+  }
+  .circle-orange {
+    width: 20rem;
+    height: 20rem;
+    background: #d97e1b;
+    opacity: 0.8;
+    border-radius: 10rem;
+    position: absolute;
+    top: 4rem;
+    right: 20rem;
+  }
+}
