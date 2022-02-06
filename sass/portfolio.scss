@@ -66,23 +66,25 @@
           }
         }
       }
-      .project:hover > .project-text {
-        display: flex;
-        bottom: 0px;
-      }
-
-      .project:hover {
-        transform: scale(1.04);
-      }
-
+      .project:hover > .project-text,
       .project:active > .project-text {
         display: flex;
         bottom: 0px;
       }
 
+      .project:hover,
       .project:active {
         transform: scale(1.04);
       }
+
+      // .project:active > .project-text {
+      //   display: flex;
+      //   bottom: 0px;
+      // }
+
+      // .project:active {
+      //   transform: scale(1.04);
+      // }
 
       .project-1 {
         background-position: center;

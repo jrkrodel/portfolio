@@ -64,7 +64,8 @@ a {
   background-color: #d97e1b;
   color: #fafafa; }
 
-.button:hover {
+.button:hover,
+.button:active {
   transform: translateY(-1rem);
   background-color: #d97e1b;
   box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.3); }
@@ -296,14 +297,11 @@ nav {
             font-size: 2rem;
             min-height: 15rem;
             margin: 0 auto; }
-      #portfolio .portfolio-content .portfolio-projects .project:hover > .project-text {
-        display: flex;
-        bottom: 0px; }
-      #portfolio .portfolio-content .portfolio-projects .project:hover {
-        transform: scale(1.04); }
+      #portfolio .portfolio-content .portfolio-projects .project:hover > .project-text,
       #portfolio .portfolio-content .portfolio-projects .project:active > .project-text {
         display: flex;
         bottom: 0px; }
+      #portfolio .portfolio-content .portfolio-projects .project:hover,
       #portfolio .portfolio-content .portfolio-projects .project:active {
         transform: scale(1.04); }
       #portfolio .portfolio-content .portfolio-projects .project-1 {
