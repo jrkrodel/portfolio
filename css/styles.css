@@ -196,7 +196,7 @@ nav {
       justify-content: center;
       align-self: flex-start;
       flex-direction: column;
-      width: 75rem;
+      max-width: 75rem;
       margin: 0 auto; }
       #about .about-content .about-text h1 {
         color: #fafafa;
@@ -208,7 +208,7 @@ nav {
         font-size: 2rem;
         color: #fafafa; }
     #about .about-content .skills {
-      width: 75rem;
+      max-width: 75rem;
       height: 25rem;
       display: flex;
       justify-content: flex-start;
