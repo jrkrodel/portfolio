@@ -247,6 +247,7 @@ nav .contact-link a {
 }
 #about .about-content {
   max-width: 120rem;
+  width: 75%;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
