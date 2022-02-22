@@ -214,6 +214,10 @@ nav .contact-link a {
           flex-direction: column;
   position: relative;
   background-color: #fafafa;
+  background-image: url(../images/hero.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   z-index: 2;
   background-attachment: fixed;
 }
