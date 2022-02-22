@@ -51,7 +51,7 @@ a {
 
 .button {
   font-family: pop-reg;
-  padding: 1rem 1.5rem 1rem 1.5rem;
+  padding: 4px 10px 4px 10px;
   background-color: transparent;
   color: #fafafa;
   border: 1px solid #d97e1b;
@@ -60,6 +60,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-size: 1.5rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -97,12 +98,12 @@ a {
     font-size: 60%;
   }
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 800px) {
   html {
     font-size: 45%;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
   html {
     font-size: 40%;
   }
@@ -241,13 +242,13 @@ nav .contact-link a {
 
 #about {
   width: 100%;
-  padding: 7rem;
   position: relative;
   background-color: #0b1c32;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(30%, #fafafa), color-stop(30%, #0b1c32));
-  background: linear-gradient(0deg, #fafafa 30%, #0b1c32 30%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(20%, #fafafa), color-stop(20%, #0b1c32));
+  background: linear-gradient(0deg, #fafafa 20%, #0b1c32 20%);
 }
 #about .about-content {
+  padding-top: 10px;
   max-width: 120rem;
   position: relative;
   display: -webkit-box;
@@ -274,7 +275,7 @@ nav .contact-link a {
 }
 #about .about-content .about-text h1 {
   color: #fafafa;
-  font-size: 7rem;
+  font-size: 5rem;
   font-family: pop-reg;
   text-align: center;
 }
@@ -497,7 +498,7 @@ nav .contact-link a {
         -ms-flex-direction: column;
             flex-direction: column;
     height: 100rem;
-    width: 80%;
+    width: 100%;
   }
   #portfolio .portfolio-content .portfolio-projects .project {
     width: 100%;
