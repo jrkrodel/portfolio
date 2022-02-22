@@ -476,10 +476,10 @@ nav .contact-link a {
     width: 35rem;
   }
   #portfolio .portfolio-content .portfolio-projects .project .project-text h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
   #portfolio .portfolio-content .portfolio-projects .project .project-text p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     min-height: 6rem;
   }
 }
@@ -517,7 +517,8 @@ nav .contact-link a {
     font-size: 3rem;
   }
   #portfolio .portfolio-content .portfolio-projects .project .project-text p {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    min-height: 6rem;
   }
   #portfolio .portfolio-content .portfolio-projects .project-1,
 #portfolio .portfolio-content .portfolio-projects .project-2,
