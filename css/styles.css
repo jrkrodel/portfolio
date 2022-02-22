@@ -14,7 +14,8 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-size: 1.6rem; }
+  font-size: 1.6rem;
+  background-color: #fafafa; }
 
 h1,
 h2,
@@ -27,15 +28,15 @@ p {
 
 @font-face {
   font-family: pop-reg;
-  src: url(fonts/Poppins-Regular.ttf); }
+  src: url(fonts/SairaCondensed-Regular.ttf); }
 
 @font-face {
   font-family: pop-light;
-  src: url(fonts/Poppins-ExtraLight.ttf); }
+  src: url(fonts/SairaCondensed-ExtraLight.ttf); }
 
 @font-face {
   font-family: pop-bold;
-  src: url(fonts/Poppins-Bold.ttf); }
+  src: url(fonts/SairaCondensed-Bold.ttf); }
 
 a {
   text-decoration: none; }
@@ -45,7 +46,7 @@ a {
   padding: 1rem 1.5rem 1rem 1.5rem;
   background-color: transparent;
   color: #fafafa;
-  border: 2px solid #d97e1b;
+  border: 1px solid #d97e1b;
   border-radius: 2.5rem;
   font-size: 2rem;
   display: flex;
@@ -70,25 +71,17 @@ a {
   background-color: #d97e1b;
   box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.3); }
 
-@media only screen and (max-width: 900px) {
-  html,
-  body {
-    font-size: 40.5%; } }
+@media only screen and (max-width: 1000px) {
+  html {
+    font-size: 45%; } }
 
 @media only screen and (max-width: 650px) {
-  html,
-  body {
-    font-size: 35.5%; } }
+  html {
+    font-size: 25%; } }
 
-@media only screen and (max-width: 520px) {
-  html,
-  body {
-    font-size: 25.5%; } }
-
-@media only screen and (max-width: 320px) {
-  html,
-  body {
-    font-size: 20.5%; } }
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 15%; } }
 
 nav {
   width: 100%;
@@ -151,86 +144,76 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  position: relative; }
+  position: relative;
+  background-color: #fafafa;
+  background-image: url(../images/hero.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 2;
+  background-attachment: fixed; }
   #home h1 {
     font-size: 6rem;
     font-family: pop-reg;
     animation-name: fadeIn;
-    animation-duration: 3s; }
+    color: #fafafa;
+    position: absolute;
+    top: 70vh; }
   #home h2 {
     font-size: 6rem;
     font-weight: lighter;
-    margin-bottom: 15rem;
-    font-family: pop-light; }
-  #home .wave1,
-  #home .wave2,
-  #home .wave3 {
+    font-family: pop-light;
+    color: #fafafa;
     position: absolute;
-    bottom: 0; }
-  #home .circle-blue {
-    width: 20rem;
-    height: 20rem;
-    background: #0b1c32;
-    opacity: 0.8;
-    border-radius: 10rem;
-    position: absolute;
-    top: 10rem;
-    right: 10rem;
-    z-index: 99; }
-  #home .circle-orange {
-    width: 20rem;
-    height: 20rem;
-    background: #d97e1b;
-    opacity: 0.8;
-    border-radius: 10rem;
-    position: absolute;
-    top: 4rem;
-    right: 20rem; }
+    top: 90vh; }
 
 #about {
   width: 100%;
-  padding-bottom: 25rem; }
+  padding: 7rem;
+  position: relative;
+  background-color: #0b1c32;
+  background: linear-gradient(0deg, #fafafa 30%, #0b1c32 30%); }
   #about .about-content {
-    width: 100%;
-    height: 70rem;
-    min-height: 300px;
-    padding-top: 12rem;
-    background-color: #0b1c32; }
+    max-width: 120rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto; }
     #about .about-content .about-text {
-      display: flex;
-      justify-content: center;
-      align-self: flex-start;
-      flex-direction: column;
-      max-width: 75rem;
-      margin: 0 auto; }
+      width: 65%;
+      height: 40%;
+      margin: 0 auto 5rem auto;
+      z-index: 98;
+      position: relative; }
       #about .about-content .about-text h1 {
         color: #fafafa;
-        font-size: 5rem;
+        font-size: 7rem;
         font-family: pop-reg;
         text-align: center; }
       #about .about-content .about-text p {
         font-family: pop-reg;
-        font-size: 2rem;
+        font-size: 2.5rem;
         color: #fafafa; }
     #about .about-content .skills {
-      max-width: 75rem;
-      height: 25rem;
+      width: 65%;
       display: flex;
       justify-content: flex-start;
       align-items: center;
       background-color: #fafafa;
       border: 1px solid #cfcfcf;
       box-shadow: 0 10px 5px -5px rgba(0, 0, 0, 0.3);
-      margin: 2rem auto;
-      padding: 6rem; }
+      margin: 0 auto;
+      padding: 6rem;
+      z-index: 98; }
       #about .about-content .skills h1 {
-        font-size: 3rem;
+        font-size: 4rem;
         font-family: pop-reg;
         margin-bottom: 1rem;
         color: black; }
       #about .about-content .skills p {
         font-family: pop-reg;
-        font-size: 2rem;
+        font-size: 2.5rem;
         color: black;
         z-index: 98;
         margin-bottom: 0; }
@@ -241,24 +224,24 @@ nav {
   width: 100%; }
   #portfolio .portfolio-content {
     width: 100%;
-    min-height: 80rem;
-    padding-top: 12rem;
     background-color: #fafafa;
+    padding: 7rem;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: column; }
     #portfolio .portfolio-content .portfolio-header {
       width: 100%;
-      height: 10rem;
+      height: 12rem;
       text-align: center;
       padding: 2rem;
       margin-bottom: 3rem; }
       #portfolio .portfolio-content .portfolio-header h1 {
-        font-size: 5rem;
+        font-size: 7rem;
+        margin-bottom: 0;
         font-family: pop-reg; }
       #portfolio .portfolio-content .portfolio-header p {
-        font-size: 3rem;
+        font-size: 2.5rem;
         font-family: pop-reg; }
     #portfolio .portfolio-content .portfolio-projects {
       height: 50rem;
@@ -273,7 +256,8 @@ nav {
         border-radius: 2rem;
         position: relative;
         overflow-y: hidden;
-        transition: transform ease 0.3s; }
+        transition: transform ease 0.3s;
+        box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5); }
         #portfolio .portfolio-content .portfolio-projects .project .project-text {
           width: 100%;
           height: 100%;
@@ -289,13 +273,13 @@ nav {
           transition: bottom ease 0.6s; }
           #portfolio .portfolio-content .portfolio-projects .project .project-text h1 {
             font-family: pop-reg;
-            font-size: 3rem;
+            font-size: 4rem;
             color: #fafafa; }
           #portfolio .portfolio-content .portfolio-projects .project .project-text p {
             font-family: pop-light;
             color: #fafafa;
-            font-size: 2rem;
-            min-height: 15rem;
+            font-size: 2.5rem;
+            min-height: 17rem;
             margin: 0 auto; }
       #portfolio .portfolio-content .portfolio-projects .project:hover > .project-text,
       #portfolio .portfolio-content .portfolio-projects .project:active > .project-text {
@@ -305,18 +289,22 @@ nav {
       #portfolio .portfolio-content .portfolio-projects .project:active {
         transform: scale(1.04); }
       #portfolio .portfolio-content .portfolio-projects .project-1 {
+        left: -800px;
+        position: relative;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         background-image: linear-gradient(to bottom, rgba(11, 28, 50, 0.5), rgba(11, 28, 50, 0.5)), url(../images/junglecook.png);
         margin-right: 4rem; }
       #portfolio .portfolio-content .portfolio-projects .project-2 {
+        left: -1400px;
         background-position: 0 0;
         background-size: cover;
         background-repeat: no-repeat;
         background-image: linear-gradient(to bottom, rgba(11, 28, 50, 0.5), rgba(11, 28, 50, 0.5)), url(../images/kuerig.png);
         margin-right: 4rem; }
       #portfolio .portfolio-content .portfolio-projects .project-3 {
+        left: -1800px;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -370,8 +358,7 @@ nav {
   width: 100%; }
   #contact .contact-content {
     width: 100%;
-    height: 85rem;
-    padding-top: 20rem;
+    padding: 7rem;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -387,14 +374,15 @@ nav {
         font-size: 3rem;
         font-family: pop-reg; }
     #contact .contact-content .contact-content-form {
-      margin-top: 10rem;
+      margin-top: 12rem;
       width: 100%;
+      max-width: 20rem;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column; }
       #contact .contact-content .contact-content-form .contact-form {
-        width: 70rem;
+        width: 50rem;
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
@@ -404,13 +392,16 @@ nav {
           font-family: pop-reg;
           margin-bottom: 0.8rem;
           font-size: 2.4rem; }
+        #contact .contact-content .contact-content-form .contact-form #my-form-status {
+          margin: 0.8rem auto;
+          font-family: pop-reg;
+          font-size: 2.4rem; }
         #contact .contact-content .contact-content-form .contact-form .form-top {
           width: 100%;
           display: flex;
           align-items: space-between;
           justify-content: space-between; }
           #contact .contact-content .contact-content-form .contact-form .form-top input {
-            width: 31.5rem;
             font-family: pop-reg;
             font-size: 2.4rem;
             height: 5rem;
