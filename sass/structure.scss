@@ -85,28 +85,19 @@ a {
 }
 
 @media only screen and (max-width: 1000px) {
-  html.touch.webkit,
-  html.touch.webkit,
-  html,
-  body {
+  html {
     font-size: 45%;
   }
 }
 
 @media only screen and (max-width: 650px) {
-  html.touch.webkit,
-  html.touch.webkit,
-  html,
-  body {
+  html {
     font-size: 25%;
   }
 }
 
 @media only screen and (max-width: 400px) {
-  html.touch.webkit,
-  html.touch.webkit,
-  html,
-  body {
+  html {
     font-size: 15%;
   }
 }
