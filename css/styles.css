@@ -15,6 +15,7 @@ body {
 
 html {
   font-size: 62.5%;
+  -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -218,7 +219,7 @@ nav .contact-link a {
           flex-direction: column;
   position: relative;
   background-color: #fafafa;
-  background-image: url(/images/hero.svg);
+  background-image: url(../images/hero.svg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
