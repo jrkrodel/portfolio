@@ -214,11 +214,12 @@ nav .contact-link a {
           flex-direction: column;
   position: relative;
   background-color: #fafafa;
-  background-image: url(../images/hero.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
   z-index: 2;
   background-attachment: fixed;
+}
+#home .hero-background {
+  width: 100%;
+  height: 100%;
 }
 #home h1 {
   font-size: 6rem;
