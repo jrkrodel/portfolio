@@ -241,8 +241,7 @@ nav .contact-link a {
 
 @media only screen and (max-width: 600px) {
   #home {
-    background-image: url(../images/hero_mobile.png);
-    background-position: left;
+    background-attachment: none;
   }
 }
 #about {
