@@ -3,7 +3,7 @@ nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 9rem;
+  height: 8rem;
   position: fixed;
   z-index: 99;
   background-color: white;
@@ -25,7 +25,7 @@ nav {
         color: black;
         font-size: 3rem;
         font-family: pop-reg;
-        padding-bottom: 0.5rem;
+        padding-bottom: 0;
         position: relative;
       }
       a:before {
