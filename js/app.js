@@ -44,12 +44,12 @@ gsap.registerPlugin(ScrollTrigger);
 
 gsap.to(".title", {
   duration: 3,
-  top: "35vh",
+  translateY: "-30vh",
   ease: "elastic.out(1, 0.3)",
 });
 gsap.to(".subtitle", {
   duration: 3.5,
-  top: "50vh",
+  translateY: "-35vh",
   ease: "elastic.out(1, 0.3)",
 });
 
