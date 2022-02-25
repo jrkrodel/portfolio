@@ -242,7 +242,8 @@ nav .contact-link a {
 
 @media only screen and (max-width: 600px) {
   #home {
-    background-size: cover;
+    background-image: none;
+    background-color: green;
   }
 }
 #about {
