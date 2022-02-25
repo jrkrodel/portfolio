@@ -243,7 +243,7 @@ nav .contact-link a {
 @media only screen and (max-width: 600px) {
   #home {
     background-image: url(../images/hero_mobile.svg);
-    background-position: 0;
+    background-position: left;
   }
 }
 #about {
