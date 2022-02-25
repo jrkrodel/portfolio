@@ -239,10 +239,11 @@ nav .contact-link a {
   top: 90vh;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
   #home {
-    background-image: url(../images/hero_mobile.jpg);
-    background-position: left;
+    background-image: url(../images/hero_mobile.svg);
+    background-position: left center;
+    background-attachment: scroll;
   }
 }
 #about {
