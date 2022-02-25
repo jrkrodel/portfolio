@@ -40,6 +40,8 @@ function formSpree() {
 }
 
 gsap.registerPlugin(ScrollTrigger);
+
+
 gsap.to(".title", {
   duration: 3,
   y: "-35vh",
@@ -50,6 +52,8 @@ gsap.to(".subtitle", {
   y: "-40vh",
   ease: "elastic.out(1, 0.3)",
 });
+
+if(screen.width > 900 ) {
 gsap.to(".project-3", {
   x: 1800,
   duration: 1.5,
@@ -72,12 +76,31 @@ gsap.to(".project-1", {
   duration: 1.5,
   scrollTrigger: ".portfolio-projects",
 });
+} else  if(screen.width < 900 ) {
 
-// gsap.to(".project-1", {
-//   y: 250,
-//   duration: 3,
-//   scrollTrigger: "portfolio-projects"
-// })
+  gsap.to(".project-1", {
+    x: 800,
+    ease: "back.out(2.5)",
+    duration: 1.5,
+    scrollTrigger: ".portfolio-projects",
+  });
+  gsap.to(".project-2", {
+    x: 1400,
+    ease: "back.out(2.5)",
+    delay: 0.3,
+    duration: 1.5,
+    scrollTrigger: ".portfolio-projects",
+  });
+
+    gsap.to(".project-3", {
+    x: 1800,
+    delay: 0.6,
+    duration: 1.5,
+    ease: "back.out(2.5)",
+    scrollTrigger: ".portfolio-projects",
+  });
+  
+}
 
 window.onload = function () {
   formSpree();
