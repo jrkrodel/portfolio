@@ -85,8 +85,8 @@ a {
 
 .button:hover,
 .button:active {
-  -webkit-transform: translateY(-1rem);
-          transform: translateY(-1rem);
+  -webkit-transform: translateY(-0.5rem);
+          transform: translateY(-0.5rem);
   background-color: #d97e1b;
   -webkit-box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.3);
           box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.3);
@@ -118,7 +118,7 @@ nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 9.2rem;
+  height: 9rem;
   position: fixed;
   z-index: 99;
   background-color: white;
@@ -135,7 +135,7 @@ nav .links {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 3rem;
+  padding: 0 25px 0 25px;
 }
 nav .links .main-links {
   height: 100%;
@@ -153,7 +153,7 @@ nav .links .main-links {
 nav .links .main-links a {
   text-decoration: none;
   color: black;
-  font-size: 2.4rem;
+  font-size: 3rem;
   font-family: pop-reg;
   padding-bottom: 0.5rem;
   position: relative;
@@ -190,6 +190,7 @@ nav .contact-link {
 nav .contact-link a {
   color: #fafafa;
   margin: 0 auto;
+  padding: 3px 20px 3px 20px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -241,7 +242,8 @@ nav .contact-link a {
 
 @media only screen and (max-width: 600px) {
   #home {
-    background-image: url(../images/hero_mobile.svg);
+    background-size: fit;
+    background-position: 0;
   }
 }
 #about {
@@ -252,7 +254,7 @@ nav .contact-link a {
   background: linear-gradient(0deg, #fafafa 20%, #0b1c32 20%);
 }
 #about .about-content {
-  padding-top: 50px;
+  padding-top: 100px;
   max-width: 120rem;
   position: relative;
   display: -webkit-box;
