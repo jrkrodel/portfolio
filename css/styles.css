@@ -242,7 +242,7 @@ nav .contact-link a {
 
 @media only screen and (max-width: 600px) {
   #home {
-    background-size: fit;
+    background-size: cover;
     background-position: 0;
   }
 }
@@ -699,6 +699,4 @@ footer .contact-links .link i {
 footer .contact-links i:hover {
   -webkit-transform: translateY(-10px);
           transform: translateY(-10px);
-  -webkit-filter: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.53));
-          filter: drop-shadow(0px 10px 5px rgba(0, 0, 0, 0.53));
 }
