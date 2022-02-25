@@ -219,6 +219,7 @@ nav .contact-link a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 #home h1 {
   font-size: 6rem;
