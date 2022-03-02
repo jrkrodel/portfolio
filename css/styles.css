@@ -12,7 +12,7 @@ body {
 
 html {
   font-size: 62.5%;
-  -webkit-text-size-adjust: none; }
+  -webkit-text-size-adjust: 100%; }
 
 body {
   font-size: 1.6rem;
@@ -290,7 +290,7 @@ nav {
             font-family: saira-light;
             color: #fafafa;
             font-size: 2.3rem;
-            min-height: 16rem;
+            min-height: 18rem;
             margin: 0 auto 2rem 0; }
       #portfolio .portfolio-content .portfolio-projects .project:hover > .project-text,
       #portfolio .portfolio-content .portfolio-projects .project:active > .project-text {
