@@ -25,7 +25,7 @@ function formSpree() {
               status.innerHTML = data["errors"]
                 .map((error) => error["message"])
                 .join(", ");
-                document.getElementById("my-form-button").innerHTML = "Send Message";
+                document.getElementById("my-form-button").innerHTML = "Send Message!";
             } else {
               status.innerHTML =
                 "Oops! There was a problem submitting your form";
