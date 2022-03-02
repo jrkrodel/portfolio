@@ -34,7 +34,7 @@
       flex-direction: column;
 
       .contact-form {
-        width: 53rem;
+        width: 55rem;
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
@@ -62,6 +62,7 @@
             border: 1px solid lightgrey;
             height: 5rem;
             padding: 0.5rem;
+            min-width: 25rem;
           }
         }
         .form-message {

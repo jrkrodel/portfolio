@@ -290,7 +290,7 @@ nav {
             font-family: saira-light;
             color: #fafafa;
             font-size: 2.3rem;
-            min-height: 18rem;
+            min-height: 16rem;
             margin: 0 auto 2rem 0; }
       #portfolio .portfolio-content .portfolio-projects .project:hover > .project-text,
       #portfolio .portfolio-content .portfolio-projects .project:active > .project-text {
@@ -393,7 +393,7 @@ nav {
       justify-content: center;
       flex-direction: column; }
       #contact .contact-content .contact-content-form .contact-form {
-        width: 53rem;
+        width: 55rem;
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
@@ -417,7 +417,8 @@ nav {
             font-size: 2rem;
             border: 1px solid lightgrey;
             height: 5rem;
-            padding: 0.5rem; }
+            padding: 0.5rem;
+            min-width: 25rem; }
         #contact .contact-content .contact-content-form .contact-form .form-message {
           width: 100%;
           height: 20rem;
