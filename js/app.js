@@ -25,6 +25,7 @@ function formSpree() {
               status.innerHTML = data["errors"]
                 .map((error) => error["message"])
                 .join(", ");
+                document.getElementById("my-form-button").innerHTML = "Send Message";
             } else {
               status.innerHTML =
                 "Oops! There was a problem submitting your form";
@@ -53,16 +54,23 @@ gsap.to(".subtitle", {
   ease: "elastic.out(1, 0.3)",
 });
 
-if(screen.width > 900 ) {
+gsap.to(".about-text", {
+  y: -300,
+  opacity: 1,
+  duration: 1,
+  scrollTrigger: ".about-text",
+});
+
+if(screen.width > 1100 ) {
 gsap.to(".project-3", {
-  x: 1800,
+  x: 2000,
   duration: 1.5,
   ease: "back.out(2.5)",
   scrollTrigger: ".portfolio-projects",
 });
 
 gsap.to(".project-2", {
-  x: 1400,
+  x: 1600,
   ease: "back.out(2.5)",
   delay: 0.3,
   duration: 1.5,
@@ -70,22 +78,22 @@ gsap.to(".project-2", {
 });
 
 gsap.to(".project-1", {
-  x: 800,
+  x: 1100,
   ease: "back.out(2.5)",
   delay: 0.6,
   duration: 1.5,
   scrollTrigger: ".portfolio-projects",
 });
-} else  if(screen.width < 900 ) {
+} else if(screen.width <= 1100 ) {
 
   gsap.to(".project-1", {
-    x: 800,
+    x: 1100,
     ease: "back.out(2.5)",
     duration: 1.5,
     scrollTrigger: ".portfolio-projects",
   });
   gsap.to(".project-2", {
-    x: 1400,
+    x: 1600,
     ease: "back.out(2.5)",
     delay: 0.3,
     duration: 1.5,
@@ -93,7 +101,7 @@ gsap.to(".project-1", {
   });
 
     gsap.to(".project-3", {
-    x: 1800,
+    x: 2000,
     delay: 0.6,
     duration: 1.5,
     ease: "back.out(2.5)",

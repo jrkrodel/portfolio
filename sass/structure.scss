@@ -33,18 +33,18 @@ p {
 }
 
 @font-face {
-  font-family: pop-reg;
-  src: url(fonts/SairaCondensed-Regular.ttf);
+  font-family: saira-reg;
+  src: url(fonts/Saira-Regular.ttf);
 }
 
 @font-face {
-  font-family: pop-light;
-  src: url(fonts/SairaCondensed-ExtraLight.ttf);
+  font-family: saira-light;
+  src: url(fonts/Saira-ExtraLight.ttf);
 }
 
 @font-face {
-  font-family: pop-bold;
-  src: url(fonts/SairaCondensed-Bold.ttf);
+  font-family: saira-bold;
+  src: url(fonts/Saira-Bold.ttf);
 }
 
 a {
@@ -52,13 +52,13 @@ a {
 }
 
 .button {
-  font-family: pop-reg;
-  padding: 4px 10px 4px 10px;
+  font-family: saira-reg;
+  padding: 7px 12px 7px 12px;
   background-color: transparent;
   color: #fafafa;
   border: 1px solid #d97e1b;
   border-radius: 2.5rem;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,32 +87,18 @@ a {
 
 @media only screen and (max-width: 1000px) {
   html {
-    font-size: 60%;
+    font-size: 55%;
   }
 }
 
 @media only screen and (max-width: 800px) {
   html {
-    font-size: 45%;
+    font-size: 40%;
   }
 }
 
 @media only screen and (max-width: 600px) {
   html {
-    font-size: 40%;
+    font-size: 30%;
   }
 }
-
-// @media only screen and (max-width: 520px) {
-//   html,
-//   body {
-//     font-size: 25.5%;
-//   }
-// }
-
-// @media only screen and (max-width: 320px) {
-//   html,
-//   body {
-//     font-size: 20.5%;
-//   }
-// }

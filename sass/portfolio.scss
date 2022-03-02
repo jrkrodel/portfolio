@@ -19,11 +19,11 @@
       h1 {
         font-size: 6rem;
         margin-bottom: 0;
-        font-family: pop-reg;
+        font-family: saira-reg;
       }
       p {
         font-size: 2.5rem;
-        font-family: pop-reg;
+        font-family: saira-reg;
       }
     }
     .portfolio-projects {
@@ -55,16 +55,16 @@
           background-color: #0b1c32;
           transition: bottom ease 0.6s;
           h1 {
-            font-family: pop-reg;
-            font-size: 4rem;
+            font-family: saira-reg;
+            font-size: 3rem;
             color: #fafafa;
           }
           p {
-            font-family: pop-light;
+            font-family: saira-light;
             color: #fafafa;
-            font-size: 2.5rem;
-            min-height: 17rem;
-            margin: 0 auto;
+            font-size: 2.3rem;
+            min-height: 16rem;
+            margin: 0 auto 2rem 0;
           }
         }
       }
@@ -80,7 +80,7 @@
       }
 
       .project-1 {
-        left: -800px;
+        left: -1100px;
         position: relative;
         background-position: center;
         background-size: cover;
@@ -95,7 +95,7 @@
       }
 
       .project-2 {
-        left: -1400px;
+        left: -1600px;
         background-position: 0 0;
         background-size: cover;
         background-repeat: no-repeat;
@@ -109,7 +109,7 @@
       }
 
       .project-3 {
-        left: -1800px;
+        left: -2000px;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -146,7 +146,7 @@
   }
 }
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1200px) {
   #portfolio {
     .portfolio-content {
       .portfolio-projects {
@@ -168,7 +168,7 @@
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1100px) {
   #portfolio {
     .portfolio-content {
       .portfolio-projects {

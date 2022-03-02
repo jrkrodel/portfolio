@@ -7,6 +7,7 @@ nav {
   position: fixed;
   z-index: 99;
   background-color: white;
+  box-shadow: 0 8px 8px 0px rgba(0, 0, 0, 0.2);
   .links {
     width: 100%;
     height: 100%;
@@ -23,8 +24,8 @@ nav {
       a {
         text-decoration: none;
         color: black;
-        font-size: 3rem;
-        font-family: pop-reg;
+        font-size: 2.3rem;
+        font-family: saira-reg;
         padding-bottom: 0;
         position: relative;
       }
